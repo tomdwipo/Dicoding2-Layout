@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Request To Book", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
-        getSupportActionBar().setTitle("Hotel Hilton");
-        getSupportActionBar().setSubtitle("Isla Nublar");
+        getSupportActionBar().setTitle("Hotel Paris");
+        getSupportActionBar().setSubtitle("Isla Nublaria");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

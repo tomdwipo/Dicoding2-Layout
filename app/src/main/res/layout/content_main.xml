@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.androbos.layout.MainActivity"
     tools:showIn="@layout/activity_main">
@@ -51,11 +49,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
         android:layout_below="@id/fr_image">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hilton Hotel Isla Nublar Resort"
+            android:text="Hilton Paris Islaria Nublar Resort"
             android:textSize="24sp"
             android:gravity="center"
             android:textStyle="bold"
@@ -63,12 +64,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jurassic World Avenue, West island, 87 miles of Costa Rica"
+            android:text="Forward Factory'7 Jln. Mayjend Yono Suwoyo Kav 3"
             android:textSize="15sp"
             android:gravity="center"
             android:layout_centerVertical="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
             android:textStyle="normal"
             android:textColor="@color/primary_text"/>
         <de.hdodenhof.circleimageview.CircleImageView
@@ -76,21 +77,16 @@
             android:layout_height="80dp"
             android:src="@drawable/avatar"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
            app:civ_border_width="2dp"
             app:civ_border_color="@color/primary_text"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sidiq Permana (owner)"
+            android:text="Tommy Dwi Putranto (owner)"
             android:gravity="center"
             android:layout_gravity="center"/>
+
     </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Request to book"
-        android:background="@android:color/holo_red_light"
-        android:textColor="@android:color/white"
-        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
